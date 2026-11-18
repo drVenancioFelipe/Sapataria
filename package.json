@@ -1,0 +1,12 @@
+{
+  "name": "renovacalcados",
+  "version": "1.0.0",
+  "description": "Sistema local de gestão para renovadora de calçados",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm run dev",
+    "start": "cd backend && npm run dev",
+    "dev": "npm run build:frontend && npm run start:backend"
+  }
+}
